@@ -14,16 +14,4 @@
 	<natures>
 		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>Desing</name>
-			<type>2</type>
-			<location>/home/ezaqui/Insync/MDIAE/UD_SAOCOM/Diseño</location>
-		</link>
-		<link>
-			<name>Tomography_processor</name>
-			<type>2</type>
-			<location>/home/ezaqui/Insync/MDIAE/UD_SAOCOM/Codigo/tomography_processor</location>
-		</link>
-	</linkedResources>
 </projectDescription>
