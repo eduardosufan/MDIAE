@@ -81,7 +81,41 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_Z0S1UD4KEea535CeRZKpvQ" name="TDBP_focus_di_show"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Model" xmi:id="_z4Wv8D4REeaOaJIx-LuMbQ" name="TDBP_matlab_activity_diagram"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_z4Wv8D4REeaOaJIx-LuMbQ" name="TDBP_matlab_activity_diagram">
+      <packagedElement xmi:type="uml:Activity" xmi:id="_6ThnID4SEeaOaJIx-LuMbQ" name="TDBP_matlab" node="_rxTo8D4UEeaOaJIx-LuMbQ _vsxY8D4UEeaOaJIx-LuMbQ _yWXRYD4UEeaOaJIx-LuMbQ _62CzcD4UEeaOaJIx-LuMbQ _9enYMD4UEeaOaJIx-LuMbQ _BCxbcD4VEeaOaJIx-LuMbQ _CTx64D4WEeaOaJIx-LuMbQ _J-5McD4WEeaOaJIx-LuMbQ _eif98D4XEeaOaJIx-LuMbQ _RoCcMD4jEeaOaJIx-LuMbQ _PfNSAD4kEeaOaJIx-LuMbQ _RHHrAD4kEeaOaJIx-LuMbQ _6wsmID4kEeaOaJIx-LuMbQ" group="_MFBdYD4UEeaOaJIx-LuMbQ _iNkzcD4VEeaOaJIx-LuMbQ _ZiZDoD4jEeaOaJIx-LuMbQ">
+        <edge xmi:type="uml:ControlFlow" xmi:id="_KDAs4D4VEeaOaJIx-LuMbQ" target="_vsxY8D4UEeaOaJIx-LuMbQ" source="_rxTo8D4UEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_Kwe24D4VEeaOaJIx-LuMbQ" target="_yWXRYD4UEeaOaJIx-LuMbQ" source="_vsxY8D4UEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_LMF00D4VEeaOaJIx-LuMbQ" target="_62CzcD4UEeaOaJIx-LuMbQ" source="_yWXRYD4UEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_MYObUD4WEeaOaJIx-LuMbQ" name="Yes" target="_CTx64D4WEeaOaJIx-LuMbQ" source="_9enYMD4UEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_3mMhYD4WEeaOaJIx-LuMbQ" name="No" target="_J-5McD4WEeaOaJIx-LuMbQ" source="_9enYMD4UEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="__otmUD4WEeaOaJIx-LuMbQ" name="Yes" target="_9enYMD4UEeaOaJIx-LuMbQ" source="_62CzcD4UEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_hLA4UD4XEeaOaJIx-LuMbQ" name="No" target="_eif98D4XEeaOaJIx-LuMbQ" source="_62CzcD4UEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_xVDnkD4jEeaOaJIx-LuMbQ" target="_RoCcMD4jEeaOaJIx-LuMbQ" source="_eif98D4XEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_1zOcAD4jEeaOaJIx-LuMbQ" target="_RoCcMD4jEeaOaJIx-LuMbQ" source="_CTx64D4WEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_2NO3cD4jEeaOaJIx-LuMbQ" target="_RoCcMD4jEeaOaJIx-LuMbQ" source="_J-5McD4WEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_G_ON8D4kEeaOaJIx-LuMbQ" target="_BCxbcD4VEeaOaJIx-LuMbQ" source="_RoCcMD4jEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_gkpI8D4kEeaOaJIx-LuMbQ" name="Yes" target="_PfNSAD4kEeaOaJIx-LuMbQ" source="_BCxbcD4VEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_hxsx8D4kEeaOaJIx-LuMbQ" name="No" target="_RHHrAD4kEeaOaJIx-LuMbQ" source="_BCxbcD4VEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_7tj3AD4kEeaOaJIx-LuMbQ" target="_6wsmID4kEeaOaJIx-LuMbQ" source="_RHHrAD4kEeaOaJIx-LuMbQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="__rPNgD4kEeaOaJIx-LuMbQ" target="_6wsmID4kEeaOaJIx-LuMbQ" source="_PfNSAD4kEeaOaJIx-LuMbQ"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_MFBdYD4UEeaOaJIx-LuMbQ" name="Main" node="_rxTo8D4UEeaOaJIx-LuMbQ _vsxY8D4UEeaOaJIx-LuMbQ _yWXRYD4UEeaOaJIx-LuMbQ _62CzcD4UEeaOaJIx-LuMbQ _9enYMD4UEeaOaJIx-LuMbQ _BCxbcD4VEeaOaJIx-LuMbQ _6wsmID4kEeaOaJIx-LuMbQ"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_iNkzcD4VEeaOaJIx-LuMbQ" name="Range compressed data simulation" node="_CTx64D4WEeaOaJIx-LuMbQ _J-5McD4WEeaOaJIx-LuMbQ _eif98D4XEeaOaJIx-LuMbQ"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_ZiZDoD4jEeaOaJIx-LuMbQ" name="Focusing"/>
+        <node xmi:type="uml:InitialNode" xmi:id="_rxTo8D4UEeaOaJIx-LuMbQ" name="Start" outgoing="_KDAs4D4VEeaOaJIx-LuMbQ" inPartition="_MFBdYD4UEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_vsxY8D4UEeaOaJIx-LuMbQ" name="TDBP_param_load" incoming="_KDAs4D4VEeaOaJIx-LuMbQ" outgoing="_Kwe24D4VEeaOaJIx-LuMbQ" inPartition="_MFBdYD4UEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_yWXRYD4UEeaOaJIx-LuMbQ" name="TDBP_traj_load" incoming="_Kwe24D4VEeaOaJIx-LuMbQ" outgoing="_LMF00D4VEeaOaJIx-LuMbQ" inPartition="_MFBdYD4UEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_62CzcD4UEeaOaJIx-LuMbQ" name="subs_flag" incoming="_LMF00D4VEeaOaJIx-LuMbQ" outgoing="__otmUD4WEeaOaJIx-LuMbQ _hLA4UD4XEeaOaJIx-LuMbQ" inPartition="_MFBdYD4UEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_9enYMD4UEeaOaJIx-LuMbQ" name="distributed_target_flag" incoming="__otmUD4WEeaOaJIx-LuMbQ" outgoing="_MYObUD4WEeaOaJIx-LuMbQ _3mMhYD4WEeaOaJIx-LuMbQ" inPartition="_MFBdYD4UEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_BCxbcD4VEeaOaJIx-LuMbQ" name="subs_flag" incoming="_G_ON8D4kEeaOaJIx-LuMbQ" outgoing="_gkpI8D4kEeaOaJIx-LuMbQ _hxsx8D4kEeaOaJIx-LuMbQ" inPartition="_MFBdYD4UEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_CTx64D4WEeaOaJIx-LuMbQ" name="TDBP_rc_load_subs_dist" incoming="_MYObUD4WEeaOaJIx-LuMbQ" outgoing="_1zOcAD4jEeaOaJIx-LuMbQ" inPartition="_iNkzcD4VEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_J-5McD4WEeaOaJIx-LuMbQ" name="TDBP_rc_load_subs" incoming="_3mMhYD4WEeaOaJIx-LuMbQ" outgoing="_2NO3cD4jEeaOaJIx-LuMbQ" inPartition="_iNkzcD4VEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_eif98D4XEeaOaJIx-LuMbQ" name="TDBP_rc_load" incoming="_hLA4UD4XEeaOaJIx-LuMbQ" outgoing="_xVDnkD4jEeaOaJIx-LuMbQ" inPartition="_iNkzcD4VEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_RoCcMD4jEeaOaJIx-LuMbQ" name="TDBP_focus_param_load" incoming="_xVDnkD4jEeaOaJIx-LuMbQ _1zOcAD4jEeaOaJIx-LuMbQ _2NO3cD4jEeaOaJIx-LuMbQ" outgoing="_G_ON8D4kEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_PfNSAD4kEeaOaJIx-LuMbQ" name="TDBP_focus_sub" incoming="_gkpI8D4kEeaOaJIx-LuMbQ" outgoing="__rPNgD4kEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_RHHrAD4kEeaOaJIx-LuMbQ" name="TDBP_focus" incoming="_hxsx8D4kEeaOaJIx-LuMbQ" outgoing="_7tj3AD4kEeaOaJIx-LuMbQ"/>
+        <node xmi:type="uml:ActivityFinalNode" xmi:id="_6wsmID4kEeaOaJIx-LuMbQ" name="End" incoming="_7tj3AD4kEeaOaJIx-LuMbQ __rPNgD4kEeaOaJIx-LuMbQ" inPartition="_MFBdYD4UEeaOaJIx-LuMbQ"/>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_77erYD1tEea535CeRZKpvQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_77hHoD1tEea535CeRZKpvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
