@@ -8,7 +8,46 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Model" xmi:id="_jh_ikD1uEea535CeRZKpvQ" name="TDBP_matlab_diagrams">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_gHblID37Eea535CeRZKpvQ" annotatedElement="_4524AD1uEea535CeRZKpvQ">
+        <body>Principal main of TDBP processor</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_3lM3ID37Eea535CeRZKpvQ" annotatedElement="_8NjpsD34Eea535CeRZKpvQ">
+        <body>Load parameters of radar, aircraft nominal parametersand target nominal position</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_WouHoD3-Eea535CeRZKpvQ" annotatedElement="__JOwoD34Eea535CeRZKpvQ">
+        <body>Load trajectory of plain, linear features, attitude parameters</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_2Og0MD3_Eea535CeRZKpvQ">
+        <body></body>
+      </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_4524AD1uEea535CeRZKpvQ" name="TDBP_main"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8NjpsD34Eea535CeRZKpvQ" name="TDBP_param_load">
+        <generalization xmi:type="uml:Generalization" xmi:id="_oPUuwD36Eea535CeRZKpvQ" general="_4524AD1uEea535CeRZKpvQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="__JOwoD34Eea535CeRZKpvQ" name="TDBP_traj_load">
+        <generalization xmi:type="uml:Generalization" xmi:id="_pBGxAD36Eea535CeRZKpvQ" general="_4524AD1uEea535CeRZKpvQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_EqjEID35Eea535CeRZKpvQ" name="TDBP_rc_load_subs_dist">
+        <generalization xmi:type="uml:Generalization" xmi:id="_u63ZsD36Eea535CeRZKpvQ" general="_4524AD1uEea535CeRZKpvQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JBBVID35Eea535CeRZKpvQ" name="TDBP_rc_load_subs">
+        <generalization xmi:type="uml:Generalization" xmi:id="_vY5ZgD36Eea535CeRZKpvQ" general="_4524AD1uEea535CeRZKpvQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PYqzsD35Eea535CeRZKpvQ" name="TDBP_rc_load">
+        <generalization xmi:type="uml:Generalization" xmi:id="_yHa1QD36Eea535CeRZKpvQ" general="_4524AD1uEea535CeRZKpvQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WuejoD35Eea535CeRZKpvQ" name="TDBP_focus_param_load">
+        <generalization xmi:type="uml:Generalization" xmi:id="_0PAz4D36Eea535CeRZKpvQ" general="_4524AD1uEea535CeRZKpvQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZBRssD35Eea535CeRZKpvQ" name="TDBP_focus_subs">
+        <generalization xmi:type="uml:Generalization" xmi:id="_01wq0D36Eea535CeRZKpvQ" general="_4524AD1uEea535CeRZKpvQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_b5IqoD35Eea535CeRZKpvQ" name="TDBP_focus">
+        <generalization xmi:type="uml:Generalization" xmi:id="_1RuOED36Eea535CeRZKpvQ" general="_4524AD1uEea535CeRZKpvQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_6WfEQD4BEea535CeRZKpvQ" name="TDBP_rc_dist_kernel">
+        <generalization xmi:type="uml:Generalization" xmi:id="_9rROwD4BEea535CeRZKpvQ" general="_EqjEID35Eea535CeRZKpvQ"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_77erYD1tEea535CeRZKpvQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_77hHoD1tEea535CeRZKpvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -24,4 +63,13 @@
     </profileApplication>
   </uml:Model>
   <Blocks:Block xmi:id="_5NwEYD1uEea535CeRZKpvQ" base_Class="_4524AD1uEea535CeRZKpvQ"/>
+  <Blocks:Block xmi:id="_8NsMkD34Eea535CeRZKpvQ" base_Class="_8NjpsD34Eea535CeRZKpvQ"/>
+  <Blocks:Block xmi:id="__JVeUD34Eea535CeRZKpvQ" base_Class="__JOwoD34Eea535CeRZKpvQ"/>
+  <Blocks:Block xmi:id="_EqpKwD35Eea535CeRZKpvQ" base_Class="_EqjEID35Eea535CeRZKpvQ"/>
+  <Blocks:Block xmi:id="_JBHbwD35Eea535CeRZKpvQ" base_Class="_JBBVID35Eea535CeRZKpvQ"/>
+  <Blocks:Block xmi:id="_PYwTQD35Eea535CeRZKpvQ" base_Class="_PYqzsD35Eea535CeRZKpvQ"/>
+  <Blocks:Block xmi:id="_WukDMD35Eea535CeRZKpvQ" base_Class="_WuejoD35Eea535CeRZKpvQ"/>
+  <Blocks:Block xmi:id="_ZBWlMD35Eea535CeRZKpvQ" base_Class="_ZBRssD35Eea535CeRZKpvQ"/>
+  <Blocks:Block xmi:id="_b5OKMD35Eea535CeRZKpvQ" base_Class="_b5IqoD35Eea535CeRZKpvQ"/>
+  <Blocks:Block xmi:id="_6Wj8wD4BEea535CeRZKpvQ" base_Class="_6WfEQD4BEea535CeRZKpvQ"/>
 </xmi:XMI>
