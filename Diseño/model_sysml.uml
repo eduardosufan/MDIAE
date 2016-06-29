@@ -7,7 +7,7 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_776JMD1tEea535CeRZKpvQ">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Model" xmi:id="_jh_ikD1uEea535CeRZKpvQ" name="TDBP_matlab_diagrams">
+    <packagedElement xmi:type="uml:Model" xmi:id="_jh_ikD1uEea535CeRZKpvQ" name="TDBP_matlab_Product_tree_diagram">
       <ownedComment xmi:type="uml:Comment" xmi:id="_gHblID37Eea535CeRZKpvQ" annotatedElement="_4524AD1uEea535CeRZKpvQ">
         <body>Principal main of TDBP processor</body>
       </ownedComment>
@@ -81,6 +81,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_Z0S1UD4KEea535CeRZKpvQ" name="TDBP_focus_di_show"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_z4Wv8D4REeaOaJIx-LuMbQ" name="TDBP_matlab_activity_diagram"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_77erYD1tEea535CeRZKpvQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_77hHoD1tEea535CeRZKpvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
