@@ -1921,8 +1921,8 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_xVMxgT4jEeaOaJIx-LuMbQ"/>
       <element xmi:type="uml:ControlFlow" href="model_sysml.uml#_xVDnkD4jEeaOaJIx-LuMbQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xVMxgj4jEeaOaJIx-LuMbQ" points="[475, 310, -643984, -643984]$[682, 310, -643984, -643984]$[682, 475, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xVgTgD4jEeaOaJIx-LuMbQ" id="(1.0,0.475)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xVMxgj4jEeaOaJIx-LuMbQ" points="[474, 312, -643984, -643984]$[682, 312, -643984, -643984]$[682, 474, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xVgTgD4jEeaOaJIx-LuMbQ" id="(0.9866666666666667,0.575)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xVgTgT4jEeaOaJIx-LuMbQ" id="(0.6541353383458647,0.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_1zY0ED4jEeaOaJIx-LuMbQ" type="ControlFlow_Edge" source="_CT52sD4WEeaOaJIx-LuMbQ" target="_RoMNMD4jEeaOaJIx-LuMbQ" routing="Rectilinear">
@@ -1944,9 +1944,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_1zY0ET4jEeaOaJIx-LuMbQ"/>
       <element xmi:type="uml:ControlFlow" href="model_sysml.uml#_1zOcAD4jEeaOaJIx-LuMbQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1zY0Ej4jEeaOaJIx-LuMbQ" points="[502, 370, -643984, -643984]$[653, 370, -643984, -643984]$[653, 475, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1zuyUD4jEeaOaJIx-LuMbQ" id="(1.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1zuyUT4jEeaOaJIx-LuMbQ" id="(0.43609022556390975,0.0)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1zY0Ej4jEeaOaJIx-LuMbQ" points="[502, 372, -643984, -643984]$[653, 372, -643984, -643984]$[653, 474, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1zuyUD4jEeaOaJIx-LuMbQ" id="(1.0,0.6)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1zuyUT4jEeaOaJIx-LuMbQ" id="(0.42857142857142855,0.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_2Nmq4D4jEeaOaJIx-LuMbQ" type="ControlFlow_Edge" source="_J_BIQD4WEeaOaJIx-LuMbQ" target="_RoMNMD4jEeaOaJIx-LuMbQ" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_2NnR8D4jEeaOaJIx-LuMbQ" type="ControlFlow_NameLabel">
@@ -2082,7 +2082,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="__rco4T4kEeaOaJIx-LuMbQ"/>
       <element xmi:type="uml:ControlFlow" href="model_sysml.uml#__rPNgD4kEeaOaJIx-LuMbQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__rco4j4kEeaOaJIx-LuMbQ" points="[671, 596, -643984, -643984]$[671, 618, -643984, -643984]$[731, 618, -643984, -643984]$[731, 705, -643984, -643984]$[149, 705, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__rco4j4kEeaOaJIx-LuMbQ" points="[671, 596, -643984, -643984]$[671, 618, -643984, -643984]$[731, 618, -643984, -643984]$[731, 705, -643984, -643984]$[150, 705, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__r3foD4kEeaOaJIx-LuMbQ" id="(0.7444444444444445,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__r3foT4kEeaOaJIx-LuMbQ" id="(0.9,0.4)"/>
     </edges>
